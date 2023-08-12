@@ -6,7 +6,7 @@ export default function Intro() {
   return (
     <div
       id="intro"
-      className="intro-text px-[50px] py-[70px] md:px-[100px] md:py-[70px] md:mt-[50px] flex flex-col items-start md:items-center  md:flex-row justify-between gap-[100px] md:gap-[150px]"
+      className="intro-text px-[50px] py-[50px] md:px-[100px] md:py-[70px] md:mt-[50px] flex flex-col items-start md:items-center  md:flex-row justify-between gap-[100px] md:gap-[150px]"
     >
       <div className="main-wrapper flex flex-col items-start gap-6 ">
         <p className="text-lg  text-newgreen">Hi, my name is</p>
