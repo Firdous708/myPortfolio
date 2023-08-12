@@ -11,6 +11,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import { Zoom } from "react-awesome-reveal";
 import Githubstatus from "./components/Githubstatus";
+import ScrollUpButton from "react-scroll-up-button";
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
       <div className="main-content flex flex-row">
         <Leftside />
         <div className="content md:ml-[40px] mt-32">
+          <ScrollUpButton />
           <Zoom duration={2000} triggerOnce>
             <Intro />
           </Zoom>
