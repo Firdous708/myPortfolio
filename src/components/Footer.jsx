@@ -20,7 +20,7 @@ export default function Footer() {
           <AiOutlineCodepen className="text-lightSlate text-3xl hover:text-newgreen hover:-translate-y-[2px] transition ease-in" />
         </a>
       </div>
-      <div className="footer-bottom-section mt-4 border border-newgreen text-center w-[400px] p-4 rounded-lg bg-slate-950 font-bold md:w-[600px]">
+      <div className="footer-bottom-section mt-4 border border-newgreen text-center w-[300px] p-4 rounded-lg bg-slate-950 font-bold md:w-[600px]">
         <p className="text-lightSlate text-sm">Build by Firdous</p>
       </div>
     </div>
