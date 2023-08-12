@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Githubstatus() {
   return (
-    <div className="githubstatus-container">
+    <div className="githubstatus-container flex flex-col items-center justify-center">
       <h1 className="text-3xl font-bold text-center text-newgreen mb-14 mt-[80px]">
         Github Status
       </h1>
