@@ -1,6 +1,7 @@
 import React from "react";
 import "../styling/intro.css";
 import profile from "../assets/newfirdous.jpg";
+import { Link } from "react-scroll";
 
 export default function Intro() {
   return (
@@ -20,12 +21,14 @@ export default function Intro() {
           I'm a Computer Science Student and Web Developer
           <br /> specializing in building exceptional websites.
         </p>
-        <button
-          className="get-in-touch border border-newgreen px-14 py-4 rounded-md text-newgreen
+<Link to="contact" smooth={true} duration={1000}>
+          <button
+            className="get-in-touch border border-newgreen px-14 py-4 rounded-md text-newgreen
         hover:bg-greenTint transition ease-in"
-        >
-          Let's Connect
-        </button>
+          >
+            Let's Connect
+          </button>
+        </Link>
       </div>
       <div className="spline-dev border-2 border-newgreen rounded-lg w-[200px]">
         <img
