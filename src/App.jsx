@@ -11,7 +11,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import { Zoom } from "react-awesome-reveal";
 import Githubstatus from "./components/Githubstatus";
-
+import Experience from "./components/Experience";
 
 export default function App() {
   return (
@@ -25,6 +25,9 @@ export default function App() {
           </Zoom>
           <Zoom duration={2000} triggerOnce>
             <About />
+          </Zoom>
+          <Zoom duration={2000} triggerOnce>
+            <Experience />
           </Zoom>
           <Zoom duration={2000} triggerOnce>
             <Education />

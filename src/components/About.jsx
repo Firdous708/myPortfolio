@@ -6,7 +6,7 @@ export default function About() {
   return (
     <div id="about" className="about-section mt-12 mb-12 px-8 md:px-[100px]">
       <div className="about-top flex flex-row items-center gap-4">
-        <p className="text-sm font-semibold text-newgreen"> 01. </p>
+        <p className="text-sm font-semibold text-newgreen"> * </p>
         <h1 className="text-2xl text-newwhite ">About Me</h1>
         <hr className="border-1 border-newgreen w-[100px]" />
       </div>
