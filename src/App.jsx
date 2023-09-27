@@ -12,6 +12,7 @@ import Footer from "./components/Footer";
 import { Zoom } from "react-awesome-reveal";
 import Githubstatus from "./components/Githubstatus";
 import Experience from "./components/Experience";
+import Terminal from "./components/terminal/Terminal";
 
 export default function App() {
   return (
@@ -33,6 +34,9 @@ export default function App() {
             <Education />
           </Zoom>
           <Projects />
+          <Zoom duration={2000} triggerOnce>
+            <Terminal />
+          </Zoom>
           <Githubstatus />
           <Zoom duration={1000} triggerOnce>
             <Contact />
