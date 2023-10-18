@@ -22,8 +22,7 @@ export default function Experience() {
           </div>
           <div className="experience-card-body mt-4">
             <p className="text-md text-lightSlate">
-              I'm currently interning with <b>Byteridge</b> (IT Services and IT
-              Consulting) as Software Developement Engineer.
+              I'm currently interning with <b>Byteridge</b> Software Private Limited as Software Developement Engineer.
             </p>
           </div>
         </div>
