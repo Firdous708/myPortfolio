@@ -79,7 +79,7 @@ const Navbar = () => {
               <button
                 onClick={() =>
                   window.open(
-                    "https://drive.google.com/file/d/1GIS1OYqCHM_nbOl1vgtb0mDdVrzUyXvw/view?usp=sharing"
+                    "https://drive.google.com/file/d/1ceAigvQMYzhQcwKI79E-qWUKM_vUx60L/view?usp=share_link"
                   )
                 }
                 className="resume-btn border border-newgreen px-6 py-3 rounded-lg text-newgreen
