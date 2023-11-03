@@ -1,0 +1,28 @@
+name: Greetings
+
+on:
+  pull_request:
+    types:
+      - opened
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Greet Contributor
+        run: |
+          echo "🎉 Welcome to the project, ${GITHUB_ACTOR}! 🎉"
+          echo "Thank you for your contribution to 'myPortfolio'. Here are some steps to get you started:"
+          echo ""
+          echo "1. **Fork the Repository:** Click the 'Fork' button in the top right corner to create your own copy of the repository."
+          echo "2. **Clone Your Fork:** Use \`git clone https://github.com/${GITHUB_ACTOR}/myPortfolio.git\` to clone your fork to your local machine."
+          echo "3. **Create a Branch:** Switch to a new branch for your contribution with \`git checkout -b your-branch-name\`."
+          echo "4. **Make Changes:** Make your changes and commit them. Don't forget to follow our contribution guidelines!"
+          echo "5. **Push Changes:** Push your changes to your fork with \`git push origin your-branch-name\`."
+          echo "6. **Open a Pull Request:** Go back to the main repository, and you'll see a 'Compare & pull request' button. Open a pull request to propose your changes."
+          echo "7. **Follow Up:** Participate in the discussion, address any feedback, and collaborate with the community to improve your contribution."
+          echo ""
+          echo "Thank you again for contributing to 'myPortfolio'! We appreciate your efforts. Happy coding! 🚀"
+        env:
+          GITHUB_ACTOR: ${{ github.actor }}
