@@ -17,7 +17,7 @@ export default function Experience() {
               SDE Intern @Byteridge
             </h1>
             <h1 className="text-lightestSlate font-bold tracking-wider">
-              Sept 2023 --- Present
+              Sept 2023 --- Oct 2023
             </h1>
           </div>
           <div className="experience-card-body mt-4">
